@@ -6,7 +6,6 @@ public class CommitCafe {
     private static int cups = 0;
 
     public static void brew(String drink) {
-    
         cups++;
         System.out.println(barista + " brewed " + drink + ".");
         // STUDENT_TODO_2B: Add a second brew-related improvement
